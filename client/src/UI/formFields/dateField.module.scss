@@ -1,0 +1,27 @@
+.div {
+  position: relative;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  
+  div {
+    
+    div {
+      
+      input {
+        
+      }
+      
+      button[aria-label = "Close"] {
+        left: 200px;
+      }
+    }
+  }
+
+  .error {
+    color: rgba(220, 53, 69, 1);
+    font-size: 13px;
+    position: absolute;
+    bottom: -20px;
+  }
+}
